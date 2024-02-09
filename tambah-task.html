@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <title>Tambah Task Baru</title>
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-soft-blue">
+    <nav class="py-5 navbar">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center gap-1 mb-4 w-100">
+                <img src="assets/images/logo.png" style="width: 40px" alt="Logo">
+                <p class="mb-0 text-dark fw-bold fs-5">TaskOnlen</p>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="d-flex align-items-center justify-content-between mb-5">
+                    <h3 class="text-dark fw-bold mb-0">Tambah Task Baru</h3>
+                    <a href="task.html" class="btn btn-secondary btn-sm">Kembali</a>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="title" class="mb-1">Nama Task</label>
+                                <input type="text" id="title" class="form-control" placeholder="Tulis nama task">
+                            </div>
+                            <div class="mb-3">
+                                <label for="priority" class="mb-1">Prioritas</label>
+                                <select id="priority" class="form-select">
+                                    <option value="">Pilih prioritas</option>
+                                    <option value="Low">Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+                                    <option value="Urgent">Urgent</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary w-100" type="submit">Buat</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
